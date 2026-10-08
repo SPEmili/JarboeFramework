@@ -54,22 +54,6 @@ public class JarboeTools {
 		return read(defaultFile);
 	}
 	
-	/*public static Vector<String> fread(String dir)
-	{
-		Vector<String> datiCaricati = new Vector<String>();
-		try {
-			File file = new File(dir);
-			FileReader fileReader = new FileReader(file);
-			BufferedReader bufferedReader = new BufferedReader(fileReader);
-			String line;
-			while((line = bufferedReader.readLine()) != null) {
-				datiCaricati.add(line);
-			}
-			bufferedReader.close();
-		} catch (IOException e) {}
-		return datiCaricati;
-	}*/
-	
 	public static boolean checkFile(String dir)
 	{
 		File f = new File(dir);
